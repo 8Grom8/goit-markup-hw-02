@@ -1,0 +1,125 @@
+/* Colors
+text color - #757575
+main text color - #212121
+accent - #2196F3
+primary bcg- # ffffff
+secondary bcg- #E5E5E5 */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.logo {
+  color: var(--title-text-color);
+  font-family: Raleway, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 26px;
+  line-height: 1.14;
+  text-decoration: none;
+}
+.logo-span {
+  color: var(--accent-color);
+}
+.logo-spanf {
+  color: var(--primary-white-color);
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+/* Nav */
+.sitenav-list {
+  color: var(--title-text-color);
+  list-style: none;
+  text-decoration: none;
+}
+.sitenav-list:hover,
+.sitenav-list:focus {
+  color: var(--accent-color);
+  cursor: pointer;
+}
+
+.contacts-list {
+  color: var(--title-text-color);
+  list-style: none;
+}
+.contacts-list:hover,
+.contacts-list:focus {
+  color: var(--accent-color);
+  cursor: pointer;
+}
+
+/* Hero */
+.hero {
+  background-color: #2f303a;
+}
+.hero-tittle {
+  color: var(--primary-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+}
+
+/* buttons */
+.button-hero {
+  font-family: inherit;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.button {
+  font-family: inherit;
+  color: var(--title-text-color);
+  background-color: var(--primary-white-color);
+}
+.button:hover,
+.button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+/* Section */
+
+.section-tittle {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/* Featurres */
+
+.feature-list .tittle {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  list-style: none;
+}
+.feature-list .text {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  list-style: none;
+}
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+.feature-list {
+  list-style: none;
+}
+
+.footer {
+  background-color: #2f303a;
+}
